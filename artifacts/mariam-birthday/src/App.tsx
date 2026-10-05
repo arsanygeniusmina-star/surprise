@@ -107,7 +107,6 @@ function Intro({ onEnter }: { onEnter: () => void }) {
         <div className="eyebrow intro-note">A birthday world, for one person</div>
         <div className="serif flex items-center justify-center gap-2">
           <span>LOUSANDA</span>
-          <span className="text-3xl text-[#FF4B7E] animate-[heart-pulse-glow_1.4s_infinite]" aria-hidden="true">♥</span>
         </div>
         <button
           className="intro-action flex items-center gap-2 mx-auto cursor-pointer"
@@ -287,7 +286,7 @@ function Home() {
             M
           </span>
           <span className="top-mark-name">
-            <span className="sm:hidden">LOUSANDA ♥</span>
+            <span className="sm:hidden">LOUSANDA</span>
             <span className="hidden sm:inline">For LOUSANDA · From Carlos</span>
           </span>
         </div>
@@ -337,14 +336,12 @@ function Home() {
           </div>
           <div className="hero-copy">
             <div className="hero-badge reveal">
-              <span className="text-xs text-[#FF4B7E] animate-[heartbeat_1.4s_infinite]">♥</span>
               <span className="hero-kicker">A birthday letter for LOUSANDA</span>
             </div>
             <h1 className="display reveal" id="hero-heading">
               Happy
               <br />
               <span>Birthday</span>
-              <span className="inline-block text-[#FF4B7E] text-[0.65em] align-middle ml-2 animate-[heart-pulse-glow_1.6s_infinite]" aria-hidden="true">♥</span>
             </h1>
             <p className="hero-sub reveal">
               LOUSANDA, today the whole day gets to be about you. Keep going — there is a little world
@@ -407,7 +404,6 @@ function Home() {
                 <br />
                 <span className="font-serif italic text-2xl text-[#FF4B7E] inline-flex items-center gap-2 mt-1.5">
                   Carlos
-                  <span className="text-xl text-[#FF4B7E] animate-[heart-pulse-glow_1.4s_infinite]" aria-hidden="true">♥</span>
                 </span>
               </p>
             </article>
