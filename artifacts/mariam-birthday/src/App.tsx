@@ -106,7 +106,7 @@ function Intro({ onEnter }: { onEnter: () => void }) {
       <div className="intro-copy">
         <div className="eyebrow intro-note">A birthday world, for one person</div>
         <div className="serif flex items-center justify-center gap-2">
-          <span>Mariam</span>
+          <span>LOUSANDA</span>
           <span className="text-3xl text-[#FF4B7E] animate-[heart-pulse-glow_1.4s_infinite]" aria-hidden="true">♥</span>
         </div>
         <button
@@ -287,8 +287,8 @@ function Home() {
             M
           </span>
           <span className="top-mark-name">
-            <span className="sm:hidden">Mariam ♥</span>
-            <span className="hidden sm:inline">For Mariam · From Arsany</span>
+            <span className="sm:hidden">LOUSANDA ♥</span>
+            <span className="hidden sm:inline">For LOUSANDA · From Carlos</span>
           </span>
         </div>
 
@@ -338,7 +338,7 @@ function Home() {
           <div className="hero-copy">
             <div className="hero-badge reveal">
               <span className="text-xs text-[#FF4B7E] animate-[heartbeat_1.4s_infinite]">♥</span>
-              <span className="hero-kicker">A birthday letter for Mariam</span>
+              <span className="hero-kicker">A birthday letter for LOUSANDA</span>
             </div>
             <h1 className="display reveal" id="hero-heading">
               Happy
@@ -347,7 +347,7 @@ function Home() {
               <span className="inline-block text-[#FF4B7E] text-[0.65em] align-middle ml-2 animate-[heart-pulse-glow_1.6s_infinite]" aria-hidden="true">♥</span>
             </h1>
             <p className="hero-sub reveal">
-              Mariam, today the whole day gets to be about you. Keep going — there is a little world
+              LOUSANDA, today the whole day gets to be about you. Keep going — there is a little world
               waiting further down.
             </p>
           </div>
@@ -389,7 +389,7 @@ function Home() {
               <p>For the parts of you that deserve to be celebrated out loud.</p>
             </div>
             <article className="letter-paper reveal" data-testid="text-birthday-letter">
-              <p>Mariam,</p>
+              <p>LOUSANDA,</p>
               <p>
                 There are people who bring their own weather with them. You bring warmth. The kind
                 that makes a room kinder and a hard day feel possible.
@@ -406,7 +406,7 @@ function Home() {
                 With all my love and devotion,
                 <br />
                 <span className="font-serif italic text-2xl text-[#FF4B7E] inline-flex items-center gap-2 mt-1.5">
-                  Arsany
+                  Carlos
                   <span className="text-xl text-[#FF4B7E] animate-[heart-pulse-glow_1.4s_infinite]" aria-hidden="true">♥</span>
                 </span>
               </p>
@@ -460,7 +460,7 @@ function Home() {
             <br />
             <em>Birthday,</em>
             <br />
-            Mariam.
+            LOUSANDA.
           </h2>
           <p className="reveal">
             May this year bring you countless beautiful moments, reasons to smile for no particular
@@ -503,15 +503,15 @@ function Home() {
             <p>That is the secret. That has always been the secret.</p>
             <div className="secret-rule" />
             <div className="eyebrow flex items-center justify-center gap-2">
-              <span>Happy birthday, Mariam</span>
+              <span>Happy birthday, LOUSANDA</span>
               <span className="text-[#FF4B7E] animate-[heartbeat_1.4s_infinite]" aria-hidden="true">♥</span>
-              <span>Always by your side, Arsany</span>
+              <span>Always by your side, Carlos</span>
             </div>
           </div>
           <div className="footer-note flex items-center justify-center gap-1.5">
             <span>Made with all my heart</span>
             <span className="text-[#FF4B7E] animate-[heart-pulse-glow_1.4s_infinite]" aria-hidden="true">♥</span>
-            <span>Arsany for Mariam · Happy Birthday</span>
+            <span>Carlos for LOUSANDA · Happy Birthday</span>
           </div>
         </section>
       </main>
